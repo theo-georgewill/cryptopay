@@ -1,23 +1,23 @@
-# 💸 CryptoPay Dashboard
+# CryptoPay Dashboard
 
 CryptoPay is a **Web3-powered B2B dashboard** built with the **MERN stack** (MongoDB, Express, React, Node) and **TypeScript**.  
 It allows users to connect their crypto wallet (e.g. MetaMask), view their Ethereum balance, send transactions, and log transaction history — all from a clean Tailwind-based admin dashboard.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🔗 **Wallet Connection** — Connect MetaMask wallet via `ethers.js`
-- 💰 **Live Balance Display** — Fetch real-time ETH balance
-- 📤 **Send ETH** — Transfer ETH between wallets (real or testnet)
-- 🧾 **Transaction Logs** — Store and view transaction history in MongoDB
-- 🖥️ **Admin Dashboard UI** — Built with Tailwind CSS for a responsive, modern look
-- ⚙️ **Full MERN Stack** — React frontend + Node/Express backend + MongoDB storage
-- 🔒 **Environment-based Configuration** — Easily switch between testnet/mainnet
+- **Wallet Connection** — Connect MetaMask wallet via `ethers.js`
+- **Live Balance Display** — Fetch real-time ETH balance
+- **Send ETH** — Transfer ETH between wallets (real or testnet)
+- **Transaction Logs** — Store and view transaction history in MongoDB
+- **Admin Dashboard UI** — Built with Tailwind CSS for a responsive, modern look
+- **Full MERN Stack** — React frontend + Node/Express backend + MongoDB storage
+- **Environment-based Configuration** — Easily switch between testnet/mainnet
 
 ---
 
-## 🧠 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|-------------|
@@ -60,20 +60,21 @@ It allows users to connect their crypto wallet (e.g. MetaMask), view their Ether
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/theo-georgewill/cryptopay.git
-cd cryptopay
+    git clone https://github.com/theo-georgewill/cryptopay.git
+    cd cryptopay
 ```
 ### 2. Install dependencies
+
 ### Backend:
-```
-cd server
-npm install
+```bash 
+    cd server
+    npm install
 ```
 
 ### Frontend:
-```
-cd ../client
-npm install
+```bash
+    cd ../client
+    npm install
 ```
 
 ### 3. Setup environment variables
@@ -103,7 +104,7 @@ cd ../client
 npm run dev
 ```
 
-### 🧩 Core Components
+### Core Components
 
 | Component              | Description                               |
 | ---------------------- | ----------------------------------------- |
@@ -114,7 +115,7 @@ npm run dev
 | **Layout**             | Main dashboard layout (sidebar + content) |
 
 
-### 🧠 Future Enhancements
+### Future Enhancements
 
 1. Multi-chain support (Polygon, BSC, etc.)
 2. Token transfers (ERC20)
@@ -122,7 +123,7 @@ npm run dev
 4. Analytics dashboard for transactions
 5. Business accounts with spending limits
 
-### 👨‍💻 Developer
+### Developer
 
 Author: Theo Georgewill
 Stack: MERN + Web3 + TypeScript
