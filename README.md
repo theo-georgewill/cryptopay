@@ -60,7 +60,7 @@ It allows users to connect their crypto wallet (e.g. MetaMask), view their Ether
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/cryptopay.git
+git clone https://github.com/theo-georgewill/cryptopay.git
 cd cryptopay
 ```
 ### 2. Install dependencies
