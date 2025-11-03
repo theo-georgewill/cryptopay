@@ -3,7 +3,7 @@
 CryptoPay is a **Web3-powered B2B dashboard** built with the **MERN stack** (MongoDB, Express, React, Node) and **TypeScript**.  
 It allows users to connect their crypto wallet (e.g. MetaMask), view their Ethereum balance, send transactions, and log transaction history — all from a clean Tailwind-based admin dashboard.
 
----
+----
 
 ## Features
 
